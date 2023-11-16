@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Vertebrate PhastCons 46-way",
+        "type": "bigwig",
+        "showOnHubLoad": false,
+        "url": "https://hgdownload.cse.ucsc.edu/goldenpath/hg19/phastCons46way/primates.phastCons46way.bw",
+        "filename": "primates.phastCons46way.bw",
+        "options": {
+            "color": "blue",
+            "height": 50,
+            "displayMode": "bar"
+        }
+    },
+    {
+        "name": "Primates PhastCons 46-way",
+        "type": "bigwig",
+        "showOnHubLoad": false,
+        "url": "https://hgdownload.cse.ucsc.edu/goldenpath/hg19/phastCons46way/primates.phastCons46way.bw",
+        "filename": "primates.phastCons46way.bw",
+        "options": {
+            "color": "blue",
+            "height": 50,
+            "displayMode": "bar"
+        }
+    },
+    {
+        "name": "reMapDensity2022",
+        "type": "bigwig",
+        "showOnHubLoad": true,
+        "url": "https://hgdownload.soe.ucsc.edu/gbdb/hg19/reMap/reMapDensity2022.bw",
+        "filename": "reMapDensity2022.bw",
+        "options": {
+            "color": "blue",
+            "height": 50,
+            "displayMode": "bar"
+        }
+    },
+    {
+      "type": "categorical",
+      "name": "ChromHMM (E017)",
+      "url": "https://egg.wustl.edu/d/hg19/E017_15_coreMarks_dense.gz",
+      "showOnHubLoad": true,
+      "options": {
+          "height": 50,
+          "category": {
+              "1": {"name": "Active TSS", "color": "#ff0000"},
+              "2": {"name": "Flanking Active TSS", "color": "#ff4500"},
+              "3": {"name": "Transcr at gene 5' and 3'", "color": "#32cd32"},
+              "4": {"name": "Strong transcription", "color": "#008000"},
+              "5": {"name": "Weak transcription", "color": "#006400"},
+              "6": {"name": "Genic enhancers", "color": "#c2e105"},
+              "7": {"name": "Enhancers", "color": "#ffff00"},
+              "8": {"name": "ZNF genes & repeats", "color": "#66cdaa"},
+              "9": {"name": "Heterochromatin", "color": "#8a91d0"},
+              "10": {"name": "Bivalent/Poised TSS", "color": "#cd5c5c"},
+              "11": {"name": "Flanking Bivalent TSS/Enh", "color": "#e9967a"},
+              "12": {"name": "Bivalent Enhancer", "color": "#bdb76b"},
+              "13": {"name": "Repressed PolyComb", "color": "#808080"},
+              "14": {"name": "Weak Repressed PolyComb", "color": "#c0c0c0"},
+              "15": {"name": "Quiescent/Low", "color": "#ffffff"}
+          }
+      }
+    }
+]
